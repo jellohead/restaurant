@@ -1,1 +1,1 @@
-console.log("Inside index.js");
+(()=>{"use strict";window.addEventListener("DOMContentLoaded",(e=>{console.dir(e),console.log("Inside index.js"),console.log("DOM fully loaded and parsed."),(()=>{const e=document.createElement("h1"),d=document.createTextNode("Restaurant Page");e.appendChild(d),document.querySelector("body").appendChild(e)})()}))})();

@@ -1,7 +1,10 @@
 // index.js
-
-divSelect = document.getElementById('div#content');
-
+import populatePage from "./populatePage";
 
 
-console.log('Inside index.js');
+window.addEventListener('DOMContentLoaded', (e) => {
+    console.dir(e);
+    console.log('Inside index.js');
+    console.log('DOM fully loaded and parsed.');
+    populatePage();
+})
