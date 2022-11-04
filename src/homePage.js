@@ -1,5 +1,14 @@
-// populatePage module
-const populatePage = () => {
+// homePage module
+const homePage = () => {
+    // if (btnClicked == 'Home') {
+    //     console.log('already home, nothing to change')
+    //     return;
+    // }
+
+    // let contentDiv = document.querySelector('#content');
+    // while (contentDiv.hasChildNodes()) {
+    //     contentDiv.removeChild(contentDiv.firstChild);
+    // }
     const headerElement = document.createElement('h1');
     const textNode = document.createTextNode('Restaurant Page');
     headerElement.appendChild(textNode);
@@ -15,15 +24,6 @@ const populatePage = () => {
     const textDivNode = document.createTextNode('This is a description of this very nice restaurant. It is a good place to eat. Not too expensive. Good parking.');
     textDiv.appendChild(textDivNode);
     element.appendChild(textDiv);
-
-
-
 }
 
-export default populatePage;
-
-
-// <img src="../src/dining.jpeg" width="600">
-// <div>This is a description of this very nice restaurant. It is a good place to eat. Not too expensive. Good
-//     parking.
-// </div>
+export default homePage;
